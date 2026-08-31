@@ -6,15 +6,25 @@ This portfolio activity analyzes a simulated Denial-of-Service (DoS) attack
 against a multimedia company's internal network using the NIST Cybersecurity
 Framework (CSF).
 
-## Incident
+## Scenario
 
-A malicious actor flooded the organization's network with ICMP packets
-through an unconfigured firewall. The attack overwhelmed network resources
-and prevented normal internal traffic from accessing network services for
-approximately two hours.
+A multimedia company that provides web design, graphic design, and social
+media marketing services to small businesses experienced a Denial-of-Service
+(DoS) attack.
 
-The incident was contained by blocking incoming ICMP traffic, taking
-non-critical services offline, and restoring critical services.
+A malicious actor flooded the company's network with ICMP packets through an
+unconfigured firewall. The attack overwhelmed network resources and caused
+network services to stop responding. Normal internal network traffic could
+not access network resources for approximately two hours.
+
+The incident management team responded by blocking incoming ICMP packets,
+taking non-critical network services offline, and restoring critical network
+services.
+
+Following the incident, the security team identified the unconfigured
+firewall as the vulnerability that allowed the attack and implemented
+additional firewall controls, source IP verification, network monitoring,
+and IDS/IPS capabilities.
 
 ## Security Improvements
 
@@ -47,3 +57,9 @@ The detailed incident analysis is provided in the report below.
 - IDS/IPS
 - Incident response and recovery
 - NIST Cybersecurity Framework (CSF)
+
+## Source
+
+This activity is based on the practice assignment from the **Google Cybersecurity Professional Certificate**.
+
+The scenario and activity requirements are course-provided. The security analysis and recommendations are documented in the completed assessment included in this repository.
