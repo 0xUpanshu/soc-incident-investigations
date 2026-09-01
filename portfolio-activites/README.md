@@ -11,4 +11,6 @@ monitoring, and security operations.
 
 | Activity | Focus |
 |---|---|
-| [NIST CSF – DoS Incident Report](./NIST-CSF-DoS-Incident-Report/) | Network incident analysis and NIST Cybersecurity Framework |
+| [Incident Handler Journal – Ransomware Investigation](./incident-handler-journal-ransomware-investigation/) | Incident response journaling and ransomware investigation workflow |
+| [Network Hardening Risk Assessment](./network-hardening-risk-assesment/) | Security hardening review and risk assessment |
+| [NIST CSF – DoS Incident Report](./nist-csf-dos-incident-report/) | Network incident analysis and NIST Cybersecurity Framework |
